@@ -1,15 +1,21 @@
 {
-    "short_name": "Calper",
     "name": "CALPER",
+    "short_name": "CALPER",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background": "#FFE9D2",
+    "them_color": "#FFE1C4",
+    "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "img/favCALPERw.png",
+            "src": "/img/favCALPERw.png",
             "type": "image/png",
-            "sizes": "1024x1024"
+            "sizes": "33x33"
+        },
+        {
+            "src": "/img/favCALPERw-144x144.png",
+            "type": "image/png",
+            "sizes": "300x300"
         }
-    ],
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
+    ]
 }

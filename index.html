@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png"  href="img\favCALPERw.png">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="menifest" href="manifest.json">
+    <link rel="manifest" href="./manifest.json">
     <title>CALPER | A GTU Percentage Calculator</title>
 </head>
 <body>
@@ -19,15 +19,6 @@
                 <input type="button" id="submit" value="Submit">
             </form>
         </div>
-<script>
-    if('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('js/servicewroker.js')
-                .then((reg) => console.log('Success: ', reg.scope))
-                .catch((err) => console.log('Failure: ', err));
-        })
-    }
-</script>
 <script src="js/app.js"></script>
 </body>
 </html>
